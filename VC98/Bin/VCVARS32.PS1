@@ -1,0 +1,6 @@
+$env:VSCommonDir="$pwd\..\..\Common"
+$env:MSDevDir="$pwd\..\..\Common\MSDev98"
+$env:MSVCDir="$pwd\.."
+$env:PATH="$env:MSDevDir\Bin;$env:MSVCDir\Bin;$env:VSCommonDir\Tools\WinNT;$env:VSCommonDir\Tools;$env:PATH"
+$env:INCLUDE="$env:MSVCDir\ATL\Include;$env:MSVCDir\Include;$env:MSVCDir\MFC\Include;$env:Include"
+$env:LIB="$env:MSVCDir\Lib;$env:MSVCDir\MFC\Lib;$env:Lib"
